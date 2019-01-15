@@ -5,7 +5,11 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody rb;
+	[SerializeField]
     private bool canJump;
+	[SerializeField]
+	private float jump;
+	[SerializeField]
     public float speed;
 
     // Start is called before the first frame update
@@ -24,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
         //Jumping
         if (Input.GetKeyDown(KeyCode.Space) && canJump == true)
         {
-            rb.AddForce(new Vector3(0, 400, 0));
+            rb.AddForce(new Vector3(0, jump, 0));
             canJump = false;
         }
     }

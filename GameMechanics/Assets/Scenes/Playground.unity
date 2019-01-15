@@ -784,22 +784,32 @@ PrefabInstance:
     - target: {fileID: 4641063906684824438, guid: 574af3529b0c3e846b8c278241352756,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.7
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 4641063906684824438, guid: 574af3529b0c3e846b8c278241352756,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.7
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 4641063906684824438, guid: 574af3529b0c3e846b8c278241352756,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.7
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 4641063906684824436, guid: 574af3529b0c3e846b8c278241352756,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8631d4b294a26574fa0e02c581a470a7, type: 2}
+    - target: {fileID: 4641063906684824433, guid: 574af3529b0c3e846b8c278241352756,
+        type: 3}
+      propertyPath: canJump
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4641063906684824433, guid: 574af3529b0c3e846b8c278241352756,
+        type: 3}
+      propertyPath: jump
+      value: 400
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 574af3529b0c3e846b8c278241352756, type: 3}
