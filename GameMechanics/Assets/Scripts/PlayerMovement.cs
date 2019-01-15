@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
 	[SerializeField]
     private bool canJump;
 	[SerializeField]
-	private float jump;
+	private float jump = 400;
 	[SerializeField]
     public float speed;
 
